@@ -8,7 +8,7 @@ test('Testing Login Page', async ({page}) => {
 })
 
 
-test.only('Assertion test demo', async({ page }) => {
+test('Assertion test demo', async({ page }) => {
 
     await page.goto('https://kitchen.applitools.com/')
     await page.pause()
